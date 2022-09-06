@@ -15,7 +15,7 @@ tank_steer = MoveSteering(OUTPUT_B, OUTPUT_C)
 tank_drive.gyro = GyroSensor()
 tank_drive.gyro.calibrate()
 tank_drive.sonic = UltrasonicSensor()
-
+# main loop
 while True:
   sleep(0.01)
   motor_pair.on(steering=0, speed=10)
