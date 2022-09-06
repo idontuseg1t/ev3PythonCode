@@ -9,13 +9,15 @@ from ev3dev2.sensor.lego import TouchSensor
 from ev3dev2.sensor.lego import GyroSensor
 from ev3dev2.led import Leds
 
-
+# variables
 tank_drive = MoveTank(OUTPUT_B, OUTPUT_C)
 tank_drive.gyro = GyroSensor()
 tank_drive.gyro.calibrate()
 
+#move forward
 tank_drive.on_for_seconds(60,60,5)
 
+#turn 45 degrees
 tank_drive.turn_degrees(
     speed=SpeedPercent(5),
     target_angle=45
