@@ -1,5 +1,9 @@
 # ev3PythonCode
 
+
+Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/ev3dev-stretch/index.html
+
+
 2/9 - Attempted to get gyro sensor to work
       Robot keeps turning after it has passed the specified degrees
       Working on program where robot goes around an object when it detects one in front of it
