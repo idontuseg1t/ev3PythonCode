@@ -1,4 +1,4 @@
-# ev3PythonCode
+# Logs
 
 
 Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/ev3dev-stretch/index.html <br>
