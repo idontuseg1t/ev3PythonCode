@@ -3,7 +3,7 @@
 
 Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/ev3dev-stretch/index.html <br>
 
-30/08 <br>       
+30/08      
        Started Robot, missing some pieces <br>
        Cloned git repo of demo scripts <br>
        LED, sound tested and worked <br>
