@@ -20,7 +20,7 @@ Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthed
       Working on program where robot goes around an object when it detects one in front of it. <br>
       Next lesson: will keep trying to find a solution for above problem. <br>
       
-06/09
+06/09 
       Found solution for gyro sensor: it was put on the wrong way. <br>
       Robot now spins around the specified degrees. <br>
       Robot now attempts to go around an object detected using the touch sensor with the help of the gyro sensor. <br>
