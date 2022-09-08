@@ -23,13 +23,18 @@ while True:
         tank_steer.on(steering=0, speed=10)
     else:
         tank_steer.off()
+        sleep(1)
         tank_steer.on_for_rotations(0,-10,0.1)
+        sleep(1)
         tank_drive.turn_left(10,20)
+        sleep(1)
         if tank_drive.color.color == 1:
             tank_drive.turn_right(10,20)
+            sleep(1)
             tank_steer.on_for_rotations(0,10,0.2)
             tank_drive.turn_right(10,90)
         else:
             tank_drive.turn_right(10,20)
+            sleep(1)
             tank_steer.on_for_rotations(0,10,0.2)
             tank_drive.turn_left(10,90)
