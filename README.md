@@ -25,3 +25,9 @@ Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthed
       All available sensors have now been tested. <br>
       Next lesson: more work on the gyro sensor and maybe rebuilding robot. <br>
       also maybe next lesson: getting the servo motor to work. <br>
+      
+8/9 - testing gyro sensor again <br>
+      beginning to make script so robot can follow a line <br>
+      basic script created: followLine.py <br>
+      A lot can go wrong with the script above <br>
+      Improvements to be made next lesson <br>
