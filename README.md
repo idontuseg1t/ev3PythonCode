@@ -30,7 +30,7 @@ Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthed
       Next lesson: more work on the gyro sensor and maybe rebuilding robot. <br>
       also maybe next lesson: getting the servo motor to work. <br>
       
-08/90  
+08/09  
       testing gyro sensor again <br>
       beginning to make script so robot can follow a line <br>
       basic script created: followLine.py <br>
