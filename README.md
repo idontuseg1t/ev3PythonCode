@@ -3,21 +3,25 @@
 
 Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/ev3dev-stretch/index.html <br>
 
-30/8 - Started Robot, missing some pieces <br>
+30/08 <br>       
+       Started Robot, missing some pieces <br>
        Cloned git repo of demo scripts <br>
        LED, sound tested and worked <br>
        
-1/9 - Completed base robot <br>
+01/09 <br>       
+      Completed base robot <br>
       Touch sensor added <br>
       Colour sensor added <br>
       Able to report colour <br>
 
-2/9 - Attempted to get gyro sensor to work. <br>
+02/09 <br>   
+      Attempted to get gyro sensor to work. <br>
       Robot keeps turning after it has passed the specified degrees. <br>
       Working on program where robot goes around an object when it detects one in front of it. <br>
       Next lesson: will keep trying to find a solution for above problem. <br>
       
-6/9 - Found solution for gyro sensor: it was put on the wrong way. <br>
+06/09 <br>  
+      Found solution for gyro sensor: it was put on the wrong way. <br>
       Robot now spins around the specified degrees. <br>
       Robot now attempts to go around an object detected using the touch sensor with the help of the gyro sensor. <br>
       Made similar program to the one above but with ultrasonic sensor.<br>
@@ -26,7 +30,8 @@ Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthed
       Next lesson: more work on the gyro sensor and maybe rebuilding robot. <br>
       also maybe next lesson: getting the servo motor to work. <br>
       
-8/9 - testing gyro sensor again <br>
+08/90 <br>   
+      testing gyro sensor again <br>
       beginning to make script so robot can follow a line <br>
       basic script created: followLine.py <br>
       A lot can go wrong with the script above <br>
