@@ -18,9 +18,9 @@ tank_drive.sonic = UltrasonicSensor()
 # main loop
 while True:
   sleep(0.01)
-  motor_pair.on(steering=0, speed=10)
-  if ultrasonic_sensor.distance_centimeters < 6:
-    motor_pair.off()
+  tank_steer.on(steering=0, speed=10)
+  if tank_drive.sonic.distance_centimeters < 6:
+    tank_steer.off()
     tank_drive.turn_right(10, 90)
     tank_drive.on_for_seconds(20,20,5)
     tank_drive.turn_left(10,90)
