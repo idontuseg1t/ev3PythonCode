@@ -3,6 +3,14 @@
 
 Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/ev3dev-stretch/index.html <br>
 
+30/8 - Started Robot, missing some pieces <br>
+       Cloned git repo of demo scripts <br>
+       LED, sound tested and worked <br>
+       
+1/9 - Completed base robot <br>
+      Touch sensor added <br>
+      Colour sensor added <br>
+      Able to report colour <br>
 
 2/9 - Attempted to get gyro sensor to work. <br>
       Robot keeps turning after it has passed the specified degrees. <br>
