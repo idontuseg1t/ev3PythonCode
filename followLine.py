@@ -31,10 +31,10 @@ while True:
         if tank_drive.color.color != 1:
             tank_drive.turn_right(10,20)
             sleep(1)
-            tank_steer.on_for_rotations(0,10,0.0.35)
+            tank_steer.on_for_rotations(0,10,0.4)
             tank_drive.turn_right(10,90)
         else:
             tank_drive.turn_right(10,20)
             sleep(1)
-            tank_steer.on_for_rotations(0,10,0.35)
+            tank_steer.on_for_rotations(0,10,0.4)
             tank_drive.turn_left(10,90)
