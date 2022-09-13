@@ -37,13 +37,13 @@ Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthed
       A lot can go wrong with the script above <br>
       Improvements to be made next lesson <br>
 
-09/09
+09/09  
        Still working with follow line script <br>
        Created square script and straight line script <br>
        still problems with follow line <br>
        considered script that utilises two colour sensors <br>
        
-13/09
+13/09  
        Lesson with sub teacher <br>
        no access to robots <br>
        cabinets can't be opened <br>
