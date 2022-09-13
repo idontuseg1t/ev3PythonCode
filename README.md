@@ -36,3 +36,10 @@ Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthed
       basic script created: followLine.py <br>
       A lot can go wrong with the script above <br>
       Improvements to be made next lesson <br>
+
+09/09
+       Still working with follow line script <br>
+       Created square script and straight line script <br>
+       still problems with follow line <br>
+       considered script that utilises two colour sensors <br>
+       
