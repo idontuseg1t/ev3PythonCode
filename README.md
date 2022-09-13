@@ -48,6 +48,7 @@ Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthed
        no access to robots <br>
        cabinets can't be opened <br>
        found information relating to brick-to-brick communication and remote control <br>
+       Using a brick to control another brick is known as "daisy chaining" <br>
        SSH Control: https://www.ev3dev.org/projects/2018/08/14/EV3D4-ssh-control/ <br>
        Connecting to computer via bluetooth: https://www.ev3dev.org/docs/tutorials/connecting-to-the-internet-via-bluetooth/ <br>
        Brick-to-brick info from offical doc: https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/ev3dev-stretch/rpyc.html#networking <br>
