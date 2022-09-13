@@ -43,3 +43,14 @@ Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthed
        still problems with follow line <br>
        considered script that utilises two colour sensors <br>
        
+13/09
+       Lesson with sub teacher <br>
+       no access to robots <br>
+       cabinets can't be opened <br>
+       found information relating to brick-to-brick communication and remote control <br>
+       SSH Control: https://www.ev3dev.org/projects/2018/08/14/EV3D4-ssh-control/ <br>
+       Connecting to computer via bluetooth: https://www.ev3dev.org/docs/tutorials/connecting-to-the-internet-via-bluetooth/ <br>
+       Brick-to-brick info from offical doc: https://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/ev3dev-stretch/rpyc.html#networking <br>
+       Other info regarding official ev3 client (NOT ev3dev related): https://bricks.stackexchange.com/questions/2483/communication-between-two-ev-3-bricks <br>
+       
+       
