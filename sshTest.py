@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # so that script can be run from Brickman
+# all this is from https://github.com/peprolinbot/EV3D4-ssh_control/blob/master/conbot.py
 import subprocess
 import termios, tty, sys
 from ev3dev.ev3 import *
