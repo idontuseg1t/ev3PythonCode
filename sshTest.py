@@ -8,10 +8,11 @@ from ev3dev.ev3 import *
 # attach large motors to ports B and C, medium motor to port A
 motor_left = LargeMotor('outC')
 motor_right = LargeMotor('outB')
+speed = 500
 # motor_a = MediumMotor('outA')
 
 #==============================================
-print("\n============To the order!============\n\n\n\n============LOG============\n")
+print("\n=========READY============\n\n\n\n============LOG============\n")
 #==============================================
 def getch():
     fd = sys.stdin.fileno()
@@ -29,26 +30,26 @@ def getch():
 #==============================================
 
 def forward():
-   motor_left.run_forever(speed_sp=450)
-   motor_right.run_forever(speed_sp=450)
+   motor_left.run_forever(speed_sp=speed)
+   motor_right.run_forever(speed_sp=speed)
 
 #==============================================
 
 def back():
-   motor_left.run_forever(speed_sp=-450)
-   motor_right.run_forever(speed_sp=-450)
+   motor_left.run_forever(speed_sp=-(speed))
+   motor_right.run_forever(speed_sp=-(speed))
 
 #==============================================
 
 def left():
-   motor_left.run_forever(speed_sp=-450)
-   motor_right.run_forever(speed_sp=450)
+   motor_left.run_forever(speed_sp=-250)
+   motor_right.run_forever(speed_sp=250)
 
 #==============================================
 
 def right():
-   motor_left.run_forever(speed_sp=450)
-   motor_right.run_forever(speed_sp=-450)
+   motor_left.run_forever(speed_sp=250)
+   motor_right.run_forever(speed_sp=-250)
 
 #==============================================
 
@@ -62,15 +63,21 @@ while True:
    k = getch()
    print(k)
 
-   if k == 's':
-      forward()
    if k == 'w':
+      forward()
+   if k == 's':
       back()
-   if k == 'd':
-      right()
    if k == 'a':
+      right()
+   if k == 'd':
       left()
    if k == ' ':
       stop()
    if k == 'q':
       exit()
+   if k == 'e':
+       speed += 50
+       print(speed)
+   if k == 'r':
+       speed -= 50
+       print(speed)
