@@ -55,13 +55,13 @@ Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthed
        Other info regarding official ev3 client (NOT ev3dev related): https://bricks.stackexchange.com/questions/2483/communication-between-two-ev-3-bricks <br>
        RPyC (program for remote communication installed on ev3dev) doc: https://rpyc.readthedocs.io/en/latest/ <br>
        
-15/09  
+15/09    
        Begin to implement ssh control for the robot <br>
        base script downloaded and modifications made to suit needs (see sshTest.py for details) <br>
        Remote control succeeded while robot was wired to the computer <br>
        wireless remote control to be implemented next <br>
        
-16/09
+16/09  
        attempted to work on wireless remote control using ssh <br>
        encountered problems with bluetooth <br>
        attempted to change bluetooth client on host - did not work <br>
@@ -69,7 +69,7 @@ Main Reference: python-ev3dev-lang Documentation -  https://ev3dev-lang.readthed
        pinging websites does not work either <br>
        continue working next lesson <br>
 
-07/10
+07/10  
        attempting to connect to bluetooth again <br>
        gave up on using gui, switched to just using the command line <br>
        success on the first try (this is why command line is superior to gui) <br>
